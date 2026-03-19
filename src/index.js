@@ -1,3 +1,7 @@
 import "./styles.css";
+import { renderBoard, randomizeButton } from './modules/controller/domController.js';
 
-alert("template working");
+renderBoard("player-board");
+renderBoard("computer-board");
+
+randomizeButton();
